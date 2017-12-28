@@ -1,0 +1,87 @@
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+	<div id='content'></div>
+
+    <script type="text/babel">
+	<script type="bundle.js">
+	
+	var _ = require('lodash');
+
+var names = ['Bruce Wayne', 'Wally West', 'John Jones', 'Kyle Rayner', 'Arthur Curry', 'Clark Kent'];
+var otherNames = ['Barry Allen', 'Hal Jordan', 'Kara Kent', 'Diana Prince', 'Ray Palmer', 'Oliver Queen'];
+
+_.each([names, otherNames], function(nameGroup) {
+  findSuperman(nameGroup);
+});
+
+function findSuperman(values) {
+  _.find(values, function(name) {
+    if (name === 'Clark Kent') {
+      console.log(name + ': It\'s Superman!');
+    } else {
+      console.log(name + '... No superman!');
+    }
+  });
+}
+
+		var rainbow = [
+		{
+			id: 1,
+			name:
+				<font color=red>
+				<tt>  "Каждый"<tt/>
+				</font>
+			image:"https://www.google.by/search?q=%D1%82%D0%BE%D0%BB%D0%BF%D0%B0+%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9&rlz=1C1CHZL_ruBY769BY769&tbm=isch&source=iu&ictx=1&fir=KhFyTPcAX3vxJM%253A%252COxeTnTcGxe5bYM%252C_&usg=__WQwsvN1fg60kCeIrItL693vUGPI%3D&sa=X&ved=0ahUKEwiEx8yDhenXAhWiPZoKHZKnAJoQ9QEIKTAA#imgrc=_"
+		},{
+			id: 2,
+			name:
+				<font color=orange>
+				<tt>  "Охотник"<tt/>
+				</font>
+			image:"https://www.google.by/search?rlz=1C1CHZL_ruBY769BY769&tbm=isch&sa=1&ei=SGkhWoySAcnL6ATwzKPYAw&q=%D0%BE%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D0%BA&oq=%D0%BE%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D0%BA&gs_l=psy-ab.3..0i67k1j0j0i67k1j0l7.291967.304494.0.305307.22.15.0.0.0.0.258.1333.0j5j2.8.0....0...1c.1.64.psy-ab..15.6.1154.0...297.lXUhDxMIw_s#imgrc=rzjnyMGNjgkGdM:"
+		},{
+			id: 3,
+			name:
+				<font color=yellow>
+				<tt>желает<tt/>
+				</font>
+			image:"https://www.google.by/search?rlz=1C1CHZL_ruBY769BY769&tbm=isch&sa=1&ei=SGkhWoySAcnL6ATwzKPYAw&q=%D0%BE%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D0%BA&oq=%D0%BE%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D0%BA&gs_l=psy-ab.3..0i67k1j0j0i67k1j0l7.291967.304494.0.305307.22.15.0.0.0.0.258.1333.0j5j2.8.0....0...1c.1.64.psy-ab..15.6.1154.0...297.lXUhDxMIw_s#imgrc=rzjnyMGNjgkGdM:"
+		},{
+			id: 4,
+			name:
+				<font color=green>
+	<tt>знать<tt/>
+	</font>
+	
+		image:"https://www.google.by/search?rlz=1C1CHZL_ruBY769BY769&tbm=isch&sa=1&ei=SGkhWoySAcnL6ATwzKPYAw&q=%D0%BE%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D0%BA&oq=%D0%BE%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D0%BA&gs_l=psy-ab.3..0i67k1j0j0i67k1j0l7.291967.304494.0.305307.22.15.0.0.0.0.258.1333.0j5j2.8.0....0...1c.1.64.psy-ab..15.6.1154.0...297.lXUhDxMIw_s#imgrc=rzjnyMGNjgkGdM:"
+		},{
+			id: 5,
+			name:<font color=aqua>
+	<tt>где<tt/>
+	</font>
+		image:"https://www.google.by/search?rlz=1C1CHZL_ruBY769BY769&tbm=isch&sa=1&ei=SGkhWoySAcnL6ATwzKPYAw&q=%D0%BE%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D0%BA&oq=%D0%BE%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D0%BA&gs_l=psy-ab.3..0i67k1j0j0i67k1j0l7.291967.304494.0.305307.22.15.0.0.0.0.258.1333.0j5j2.8.0....0...1c.1.64.psy-ab..15.6.1154.0...297.lXUhDxMIw_s#imgrc=rzjnyMGNjgkGdM:"
+		},{
+			id: 6,
+			name:
+				<font color=blue>
+	<tt>сидит<tt/>
+	</font>
+		image:"https://www.google.by/search?rlz=1C1CHZL_ruBY769BY769&tbm=isch&sa=1&ei=SGkhWoySAcnL6ATwzKPYAw&q=%D0%BE%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D0%BA&oq=%D0%BE%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D0%BA&gs_l=psy-ab.3..0i67k1j0j0i67k1j0l7.291967.304494.0.305307.22.15.0.0.0.0.258.1333.0j5j2.8.0....0...1c.1.64.psy-ab..15.6.1154.0...297.lXUhDxMIw_s#imgrc=rzjnyMGNjgkGdM:"
+		},{
+			id: 7,
+			name:
+				<font color=purple>
+				<tt>фазан<tt/>
+				</font>
+		image:"https://www.google.by/search?rlz=1C1CHZL_ruBY769BY769&tbm=isch&sa=1&ei=SGkhWoySAcnL6ATwzKPYAw&q=%D0%BE%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D0%BA&oq=%D0%BE%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D0%BA&gs_l=psy-ab.3..0i67k1j0j0i67k1j0l7.291967.304494.0.305307.22.15.0.0.0.0.258.1333.0j5j2.8.0....0...1c.1.64.psy-ab..15.6.1154.0...297.lXUhDxMIw_s#imgrc=rzjnyMGNjgkGdM:"
+		}
+	
+	
+	
+	
+	
+	</body>
+</html>
